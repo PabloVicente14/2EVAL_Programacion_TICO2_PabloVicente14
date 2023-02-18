@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
- <head>
+<head>
     <meta charset="UTF-8">
-    <title>Formulario de ejemplo</title>
-  </head>
-  <body>
-    <h1>Formulario de ejemplo</h1>
-    <form>
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre"><br>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="Procesar.php">
+        <p>Correo electrónico <input type="text" name="Correo electrónico" size="40" placeholder="nombre@ejemplo.com">
+        <p>Contraseña <input type="text" name="Contraseña" size="40" placeholder="Enter 8 characters or more">
+        <p>Repetir contraseña <input type="text" name="Repetir contraseña" size="40" placeholder="Repite tu contraseña">
+        <p>
+            <input type="submit" value="Regístrate">
+        </p>
 
-      <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="email"><br>
-
-      <label for="edad">Edad:</label>
-      <input type="number" id="edad" name="edad"><br>
-
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje"></textarea><br>
-
-      <input type="submit" value="Enviar">
+        
     </form>
-  </body>
+    
+</body>
 </html>
